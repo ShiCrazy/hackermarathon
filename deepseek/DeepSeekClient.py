@@ -202,17 +202,6 @@ def multi_round_chat(system_prompt: str, user_prompts: List[str],
     return all_responses
 
 
-def extract_calculation_logics():
-    """
-    提取因子计算逻辑
-    """
-    pass
-
-def calculate_metrics() -> dict:
-    """
-    计算如下指标：RankIC均值, ICIR, 因子方向, 年化多头超额, 多头超额收益波动比, 年化多空超额, 多空超额收益波动比
-    """
-    pass
 
 # 使用示例
 if __name__ == "__main__":
