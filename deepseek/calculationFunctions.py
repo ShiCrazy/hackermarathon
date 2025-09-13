@@ -51,9 +51,9 @@ def extract_calculation_logics(response: str) -> Optional[Dict]:
             
     return None
 
-# 计算指标只有RankIC均值和ICIR够不够？
+
 # 这些回测指标的计算方式（代码形式和计算表达式形式）
-def calculate_metrics(factor_expression: str, mode: str = "developer") -> Dict:
+def calculate_metrics(factor_expression: str, mode: str = "deepseek") -> Dict:
     """
     计算因子的回测指标
     

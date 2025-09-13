@@ -28,9 +28,6 @@ SYSTEMPROMPT = """
 """
 
 
-USERPROMPT_START = """
-请寻找选股能力出色的基本面因子，按照要求的格式返回。
-"""
 
 USERPROMPT_GENERAL = """
 以下是 AI 已生成的因子：
